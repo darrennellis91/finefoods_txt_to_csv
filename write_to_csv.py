@@ -3,7 +3,7 @@ import csv
 input_file = 'foods.txt'  # Replace with your input text file name
 output_file = 'foods.csv'  # Replace with your desired output CSV file name
 
-with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', newline='') as outfile:
+with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', newline='', encoding='utf-8') as outfile:
     fieldnames = ['product/productId', 'review/userId', 'review/profileName', 'review/helpfulness', 'review/score', 'review/time', 'review/summary', 'review/text']
     writer = csv.DictWriter(outfile, fieldnames=fieldnames)
     writer.writeheader()
