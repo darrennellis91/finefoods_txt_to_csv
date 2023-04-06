@@ -6,7 +6,7 @@ Input Format
 The script expects the input file to follow this format:
 
 bash
-Copy code
+	`code`
 product/productId: B001E4KFG0
 review/userId: A3SGXH7AUHU8GW
 review/profileName: delmartian
