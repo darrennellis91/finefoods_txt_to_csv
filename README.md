@@ -5,8 +5,8 @@ The purpose of this Python script is to convert the food.txt file found at http:
 Input Format
 The script expects the input file to follow this format:
 
-bash
-	`code`
+`bash
+
 product/productId: B001E4KFG0
 review/userId: A3SGXH7AUHU8GW
 review/profileName: delmartian
@@ -16,7 +16,7 @@ review/time: 1303862400
 review/summary: Good Quality Dog Food
 review/text: I have bought several of the Vitality canned dog food products and have found them all to be of good quality...
 Each product review entry should be separated by a blank line.
-
+`
 Usage
 Ensure you have Python installed on your machine.
 Save the Python script (text_to_csv.py) to a local directory.
